@@ -1,6 +1,6 @@
 import { useState } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Navigate,
@@ -19,7 +19,7 @@ function App() {
   const [language, setLanguage] = useState("ID");
 
   return (
-    <Router basename="/budayabatak">
+    <Router>
       <div className="bg-white">
         <StickyNavbar language={language} setLanguage={setLanguage} />
         <Routes>
