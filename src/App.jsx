@@ -19,7 +19,7 @@ function App() {
   const [language, setLanguage] = useState("ID");
 
   return (
-    <Router basename="/budayabatak">
+    <Router basename="">
       <div className="bg-white">
         <StickyNavbar language={language} setLanguage={setLanguage} />
         <Routes>
