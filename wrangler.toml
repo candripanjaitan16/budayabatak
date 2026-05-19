@@ -1,3 +1,10 @@
-[env.production]
-build = { command = "npm run build", cwd = "./" }
-main = "dist"
+name = "budayabatak"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+[build]
+command = "npm run build"
+cwd = "./"
