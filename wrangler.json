@@ -1,9 +1,0 @@
-{
-  "name": "budayabatak",
-  "type": "javascript",
-  "main": "dist/index.html",
-  "build": {
-    "command": "npm run build",
-    "cwd": "./"
-  }
-}
